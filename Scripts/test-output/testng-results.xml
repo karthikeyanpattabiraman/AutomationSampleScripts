@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
@@ -71,6 +72,17 @@ Session ID: c2cbc8a2292ba0dcdd4a27c419e3a4bc
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.WebDriverException -->
+
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="14497" started-at="2017-06-12T05:49:27Z" finished-at="2017-06-12T05:49:41Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="14497" started-at="2017-06-12T05:49:27Z" finished-at="2017-06-12T05:49:41Z">
+      <class name="Modules.ScrollByview">
+        <test-method status="PASS" signature="srolling()[pri:0, instance:Modules.ScrollByview@5c3bd550]" name="srolling" duration-ms="14479" started-at="2017-06-12T11:19:27Z" finished-at="2017-06-12T11:19:41Z">
+
           <reporter-output>
           </reporter-output>
         </test-method> <!-- srolling -->
