@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Car Suite]">
+  <test name="Sanity tests(failed)">
+    <classes>
+      <class name="com.gmail.testcase.VerifyValidGmailLogin">
+        <methods>
+          <include name="checkValidLogin"/>
+        </methods>
+      </class> <!-- com.gmail.testcase.VerifyValidGmailLogin -->
+    </classes>
+  </test> <!-- Sanity tests(failed) -->
+  <test name="regression tests(failed)">
+    <classes>
+      <class name="com.gmail.testcase.VerifyInboxGmail">
+        <methods>
+          <include name="checkValidLogin"/>
+          <include name="checkInbox"/>
+        </methods>
+      </class> <!-- com.gmail.testcase.VerifyInboxGmail -->
+    </classes>
+  </test> <!-- regression tests(failed) -->
+</suite> <!-- Failed suite [Car Suite] -->
