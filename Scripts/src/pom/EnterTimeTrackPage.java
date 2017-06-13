@@ -16,8 +16,9 @@ public class EnterTimeTrackPage extends Basepage{
 	   
 	   private WebElement logoutButton;
 	   
+	   @FindBy(xpath=".//div[@class='popup_menu_icon warning_icon' and @title='Warning! Password recovery function is disabled as email settings are not configured.']")
 	   
-	   
+	   private WebElement setclick;
 	   
 	   
 	   public EnterTimeTrackPage(WebDriver driver){
@@ -88,6 +89,15 @@ public class EnterTimeTrackPage extends Basepage{
 				action.moveToElement(driver.findElement(By.id("logoutLink"))).click().build().perform();*/
 				
 				}
+		   
+		   
+		   public void SettingClickinng(){
+			   
+		   setclick.click();
+			  
+			   
+			   
+		}
   }
 
 		   
