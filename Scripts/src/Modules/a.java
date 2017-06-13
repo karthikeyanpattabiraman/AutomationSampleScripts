@@ -1,4 +1,4 @@
-/*package Modules;
+package Modules;
 
 interface juice {
 	void print();
@@ -29,4 +29,4 @@ public static void main(String args[]){
 	}
 	    }
 	}
-}*/
+}
