@@ -16,7 +16,11 @@ public class SendEmailJava {
     	  Email email = new SimpleEmail();
     	  email.setHostName("smtp.gmail.com");
     	  email.setSmtpPort(465);
+
     	 // email.setAuthenticator(new DefaultAuthenticator("karthikeyanp@znodtech.com", "Temp#123"));
+
+    	  email.setAuthenticator(new DefaultAuthenticator("karthikeyanp@znodtech.com", "Temp#123"));
+
     	  email.setSSLOnConnect(true);
     	  email.setFrom("karthikeyanp@intentsg.com");
     	  email.setSubject("TestMail");

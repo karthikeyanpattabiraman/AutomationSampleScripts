@@ -25,8 +25,10 @@ public class ClickElement {
 		  actions.moveToElement(driver.findElement(By.linkText(text))).build().perform();
 		  
 		  driver.findElement(By.linkText(text)).click();
+
 		  
 		  //driver files sampl
+
 		
 		
 	}
@@ -43,7 +45,9 @@ public class ClickElement {
 		  //actions.clickAndHold().moveToElement(driver.findElement(By.xpath(lxpath))).build().perform();
 		  
 		  //actions.moveToElement(driver.findElement(By.xpath(lxpath))).release().perform();
+
 		  //actions.moveToElement(driver.findElement(By.xpath(lxpath))).release().perform();//
+
 		  
 		  //actions.moveToElement(driver.findElement(By.xpath(lxpath))).click().perform();
 		  
