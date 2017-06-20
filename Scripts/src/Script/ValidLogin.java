@@ -11,7 +11,10 @@ import pom.ViewTimeTrackPage;
 public class ValidLogin extends BaseTest {
 	
 
+	@Test(groups={"ValidLogin.testValidLogin"})
+
 	@Test
+
 	  
 	    public void testValidLogin() throws InterruptedException{
 		  
@@ -32,7 +35,13 @@ public class ValidLogin extends BaseTest {
 		  l.clickLoginButton();
 		  
 		  
+
+		  EnterTimeTrackPage e= new EnterTimeTrackPage(driver);
+		  
+		  
+
 		  //EnterTimeTrackPage e= new EnterTimeTrackPage(driver);
+
 		  
 		  //e.verifyTitle(hp);
 		  
@@ -44,8 +53,14 @@ public class ValidLogin extends BaseTest {
 		  
 		  
 		   
+
+		  // ViewTimeTrackPage v=new ViewTimeTrackPage(driver);
+		   
+		  // v.Currentmonthdropdown();
+
 		   ViewTimeTrackPage v=new ViewTimeTrackPage(driver);
 		   
 		   v.Currentmonthdropdown();
+
 	  }
 }
